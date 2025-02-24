@@ -6,3 +6,11 @@ body {
     margin: 0;
     font-family: Inter, sans-serif;
 }
+
+header{
+background-color: black;
+}
+
+header > img{
+    width: 0.5rem;
+}
