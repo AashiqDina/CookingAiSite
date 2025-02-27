@@ -8,9 +8,112 @@ body {
 }
 
 header{
-background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: rgb(242, 242, 242);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+    gap: 0.7rem;
+}
+
+body{
+    background-color: #e5e5e5;
 }
 
 header > img{
-    width: 0.5rem;
+    width: 4rem;
+    height: auto;
+}
+
+header > h1{
+    font-family: Inter, sans-serif;
+    font-weight: 4500;
+}
+
+main{
+    padding: 2rem 2rem;
+}
+
+.AddIngredient{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.AddIngredient > input{
+    border-radius: 10rem;
+    border: 1px solid #D1D5DB;
+    padding: 9px;
+    flex-grow: 1;
+    min-width: 150px;
+    max-width: 400px;
+    font-family: Inter, sans-serif;
+}
+
+.AddIngredient > input:focus{
+    border-color: #e96336a3;
+    border-width: 2px;
+    outline: none;
+}
+
+.AddIngredient > button{
+    border-radius: 10rem;
+    border: none;
+    padding: 9px;
+    background-color: black;
+    color: white;
+    padding: 9px 9px;
+    font-family: Inter, sans-serif;
+    
+}
+
+.FinishedDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: #d2d2d2;
+    padding: 10px 28px;
+    width: 50%;
+}
+
+.FinishedInnerDiv > h2{
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 24px;
+    
+}
+
+.FinishedInnerDiv > p{
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 20px;
+}
+
+.FinishedDiv > button{
+    border: none;
+    border-radius: 1rem;
+    background: #e96336;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    color: #FAFAF8;
+    padding: 0.9rem 1.9rem;
+    font-family: Inter, sans-serif;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.FinSection{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.IngSection > ul{
+    color: #6B7280;
+}
+
+.Recipe > ul{
+    color: #6B7280;
 }
